@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customizable Affirmation Notifications</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	  background: rgb(33, 33, 78);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      /* color: white; */
+    }
+
+    h1 {
+      color: #4caf50;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-size: 18px;
+      margin-right: 10px;
+      color: white;
+    }
+
+    input {
+      padding: 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 10px;
+      width: 80px;
+    }
+
+    button {
+      padding: 14px 30px;
+      font-size: 16px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+    /* Styling for notification */
+    .notification {
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+<label for="interval">Set Time Interval (seconds): </label>
+<input type="number" id="interval" min="1" value="10">
+<button onclick="startAffirmationNotifications()">Start Affirmations</button>
+<button onclick="stopAffirmationNotifications()">Stop Affirmations</button>
+
+<script>
+  let intervalId; // To store the interval ID for later clearing
+
+  function showAffirmationNotification() {
+    // Array of affirmations
+    const affirmations = [
+      "You are capable of amazing things.",
+      "You are enough just as you are.",
+      "Today is a new day filled with possibilities.",
+      "You have the power to make a difference.",
+      "You are worthy of love and happiness."
+    ];
+
+    // Get a random affirmation
+    const randomIndex = Math.floor(Math.random() * affirmations.length);
+    const randomAffirmation = affirmations[randomIndex];
+
+    // Check if the Notification API is supported
+    if ('Notification' in window) {
+      // Request permission to show notifications
+      Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+          // Create and show the notification
+          const notification = new Notification('Affirmation', {
+            body: randomAffirmation
+          });
+
+          // Close the notification after a few seconds (optional)
+          setTimeout(() => {
+            notification.close();
+          }, 5000); // Close after 5 seconds
+        }
+      });
+    } else {
+      // If the Notification API is not supported
+      alert('Notifications not supported in your browser.');
+    }
+  }
+
+  function startAffirmationNotifications() {
+    // Clear any existing interval
+    clearInterval(intervalId);
+    alert('Your notification is set'); 
+    // Get the user-entered interval from the input field
+    const intervalInSeconds = parseInt(document.getElementById('interval').value, 10) * 1000;
+
+    // Show the first affirmation immediately
+    showAffirmationNotification();
+
+    // Schedule the affirmations at the specified interval
+    intervalId = setInterval(showAffirmationNotification, intervalInSeconds);
+  }
+
+  function stopAffirmationNotifications() {
+    // Clear the interval to stop affirmations
+    alert('Notifications is stop');
+    clearInterval(intervalId);
+  }
+</script>
+
+</body>
+</html>

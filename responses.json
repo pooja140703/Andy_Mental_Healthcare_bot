@@ -1,0 +1,30 @@
+{
+  "tags": [
+    {
+      "tag": "hey",
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "tag": "hello",
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "tag": "hi",
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "tag": "Bye",
+      "responses": ["Goodbye!", "See you later!", "Bye!"]
+    },
+    {
+      "tag": "See you later",
+      "responses": ["Goodbye!", "See you later!", "Bye!"]
+    },
+
+    {
+      "tag": "default",
+      "responses": ["I'm not sure how to respond to that.", "Interesting.", "Tell me more."]
+    }
+
+  ]
+}

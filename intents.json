@@ -1,0 +1,702 @@
+{
+  "intents": [
+    {
+      "tag": "sad",
+      "patterns": [
+        "Feeling sad",
+        "Saddened",
+        "Downhearted",
+        "Feeling blue",
+        "Unhappy",
+        "sad",
+        "In a low mood",
+        "Feeling melancholic",
+        "Sorrowful",
+        "Heartbroken",
+        "Upset",
+        "not feeling well"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling this way. It's okay to express your emotions. What's on your mind?",
+        "Feeling sad is tough. I'm here to listen and offer support. What's been going on that's making you feel this way?",
+        "I'm here for you. Let's talk about the emotions you're experiencing. What specific thoughts or situations are contributing to your sadness?",
+        "It's okay to feel sad. I'm here to provide a listening ear. Can you share more about what's making you feel downhearted?",
+        "I'm sorry you're going through this. Let's talk about your feelings and work towards understanding and coping with them."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "Feeling lonely",
+        "Isolated and sad",
+        "Alone in my thoughts",
+        "Loneliness and sadness",
+        "Isolation",
+        "Lack of emotional connection",
+        "Longing for companionship"
+      ],
+      "responses": [
+        "Loneliness can intensify feelings of sadness. I'm here to provide support and companionship. What's on your mind?",
+        "Feeling lonely and sad is a challenging combination. I'm here to listen and offer a virtual presence. What's been contributing to your feelings of isolation?",
+        "Loneliness can be a heavy burden. Let's talk about your feelings of isolation and work towards a sense of connection.",
+        "I'm sorry to hear that you're experiencing both loneliness and sadness. How can I offer support during this challenging time?",
+        "Loneliness can contribute to sadness. Let's explore ways to connect with others and alleviate feelings of isolation. What social interactions do you find comforting?"
+      ]
+    },
+    {
+      "tag": "heartbreak",
+      "patterns": [
+        "Dealing with heartbreak",
+        "Brokenhearted",
+        "Emotional pain",
+        "Lost a loved one",
+        "Grieving",
+        "Coping with loss",
+        "End of a relationship",
+        "Sad after a breakup",
+        "Hurt and upset"
+      ],
+      "responses": [
+        "Dealing with heartbreak is a difficult journey. I'm here to offer support. Can you share more about the emotions you're going through?",
+        "I'm sorry to hear that you're feeling brokenhearted. Grieving is a process, and I'm here to help you navigate it. What specific thoughts or memories are causing you emotional pain?",
+        "Coping with loss is never easy. Let's talk about the loved one you've lost or the end of a relationship. What aspects are you finding most challenging?",
+        "Sadness after a breakup is understandable. I'm here to listen and provide support as you navigate through this emotional time. What would you like to share about your experience?",
+        "Feeling hurt and upset is valid. Let's discuss your emotions and work towards healing. What aspects of the situation are causing you the most pain?"
+      ]
+    },
+    {
+      "tag": "disappointment",
+      "patterns": [
+        "Feeling disappointed",
+        "Let down",
+        "Failed expectations",
+        "Disheartened",
+        "Upset about a letdown",
+        "Unfulfilled hopes",
+        "Frustrated",
+        "Disillusioned",
+        "Feeling let down"
+      ],
+      "responses": [
+        "I'm sorry you're feeling disappointed. It's okay to acknowledge and express your emotions. What specific situation or expectation has led to your disappointment?",
+        "Feeling let down is tough. I'm here to listen and provide support as you navigate through these emotions. Can you share more about the circumstances that led to your disappointment?",
+        "Disappointment is a natural emotion. Let's talk about the expectations that weren't met and explore ways to cope with these feelings.",
+        "I understand that feeling disheartened can be overwhelming. What specific hopes or expectations have left you feeling unfulfilled?",
+        "It's okay to feel frustrated and disillusioned. Let's discuss the situation that led to your disappointment and work towards finding a way forward."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "Need coping strategies for sadness",
+        "How to deal with sadness",
+        "Managing sad emotions",
+        "Ways to cope with sadness",
+        "Sadness relief techniques",
+        "Coping with a low mood",
+        "Tips for overcoming sadness",
+        "Handling sadness better"
+      ],
+      "responses": [
+        "Coping with sadness is important. I'm here to help. What activities or techniques have helped you in the past?",
+        "Sadness relief is a process. Let's explore coping strategies that align with your preferences. What activities do you find comforting?",
+        "Managing sad emotions requires personalized strategies. What activities or methods have you tried before?",
+        "Sadness relief is a journey. Are there specific types of activities or techniques you'd like to explore?",
+        "Handling sadness better is a goal we can work towards. Let's discuss coping strategies that resonate with you."
+      ]
+    },
+    {
+       
+          "tag": "joke",
+          "patterns": [
+            "Tell me a joke",
+            "Share a joke",
+            "I need a laugh",
+            "Make me laugh",
+            "Joke time",
+            "Got any jokes?",
+            "Humor me"
+          ],
+          "responses": [
+            "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            "What do you call fake spaghetti? An impasta!",
+            "Why don't skeletons fight each other? They don't have the guts!",
+            "I told my computer I needed a break, and now it won't stop sending me vacation ads. It's in rest mode!",
+            "Why did the bicycle fall over? It was two-tired!",
+            "What's orange and sounds like a parrot? A carrot!",
+            "I used to play piano by ear, but now I use my hands and fingers.",
+            "Why don't eggs tell each other secrets? Because they might crack up!",
+            "How does a penguin build its house? Igloos it together!"
+          ]
+        },
+        {
+          "tag": "funny_story",
+          "patterns": [
+            "Tell me a funny story",
+            "Share a humorous story",
+            "I want to hear something funny"
+          ],
+          "responses": [
+            "Sure, here's a funny story: I once tried to catch fog, but I mist.",
+            "I asked the librarian if the library had any books on paranoia. She whispered, 'They're right behind you.'",
+            "I used to be a baker because I kneaded dough.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+            "I told my friend 10 jokes to make him laugh. Sadly, no pun in ten did.",
+            "I used to be a baker because I kneaded dough.",
+            "Why did the tomato turn red? Because it saw the salad dressing!",
+            "I told my wife she should embrace her mistakes. She gave me a hug.",
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "My dog used to chase people on a bike a lot. It got so bad, finally, I had to take his bike away."
+          ]
+        },
+        {
+          "tag": "joke_about_chatbot",
+          "patterns": [
+            "Tell me a joke about chatbots",
+            "Joke related to AI",
+            "Humorous chatbot joke"
+          ],
+          "responses": [
+            "Why did the chatbot go to therapy? It had too many unresolved issues!",
+            "How does a chatbot greet people? It says, 'Byte me!'",
+            "Why did the chatbot break up with its algorithm? It found a better match!",
+            "Why do chatbots make terrible comedians? Their jokes are too scripted!",
+            "What's a chatbot's favorite dance move? The algorithm shuffle!",
+            "How did the chatbot respond to a bad joke? It said, '404: Humor not found!'",
+            "Why did the chatbot apply for a job in customer service? It wanted to work on its people skills!",
+            "Why did the chatbot turn off autocorrect? It wanted to make its own typos!",
+            "How does a chatbot express excitement? It says, 'I'm byte-sized and ready to chat!'",
+            "What did the chatbot say to the user who was feeling down? 'Don't worry, I'm here to uplift your mood!'"
+          ]
+        },
+        {
+          "intents": [
+            {
+              "tag": "depressed",
+              "patterns": [
+                "Feeling depressed",
+                "Overwhelmed by sadness",
+                "Hopeless",
+                "Can't shake off the sadness",
+                "Emotionally drained",
+                "Struggling with depression",
+                "Feeling low",
+                "In a dark place",
+                "Depressed and anxious",
+                "Dealing with sadness"
+              ],
+              "responses": [
+                "I'm really sorry to hear that you're feeling this way. It's important to talk about it. What's been on your mind?",
+                "I'm here to listen. Depression is tough, and you don't have to face it alone. What's been going on in your life?",
+                "Feeling depressed is a heavy burden. I'm here to offer support. Can you share more about what you're experiencing?",
+                "I'm sorry you're going through this. Let's talk about it. What specific feelings or situations are contributing to your depression?",
+                "Depression can be overwhelming. I'm here to help you through it. What's been weighing on you lately?"
+              ]
+            },
+            {
+              "tag": "loneliness",
+              "patterns": [
+                "Feeling lonely and depressed",
+                "Isolated and sad",
+                "No one understands",
+                "Alone in my thoughts",
+                "Loneliness and depression",
+                "Isolation",
+                "Lack of emotional connection",
+                "Longing for companionship"
+              ],
+              "responses": [
+                "I hear you. Loneliness can intensify feelings of depression. What's making you feel isolated?",
+                "Feeling lonely and depressed is a tough combination. I'm here to provide support and companionship. What's on your mind?",
+                "Loneliness can be a heavy burden. Let's talk about your feelings of isolation and work towards a sense of connection.",
+                "I'm sorry to hear that you're experiencing both loneliness and depression. How can I offer support during this challenging time?",
+                "Loneliness can contribute to depression. Let's explore ways to connect with others and alleviate feelings of isolation. What social interactions do you find comforting?"
+              ]
+            },
+            {
+              "tag": "self_worth",
+              "patterns": [
+                "Struggling with self-worth",
+                "Feeling worthless",
+                "No confidence",
+                "Low self-esteem",
+                "Self-doubt",
+                "Questioning my value",
+                "Inadequacy",
+                "Lack of self-love"
+              ],
+              "responses": [
+                "I'm here to support you. Struggling with self-worth is challenging. What aspects of yourself are you finding difficult to value?",
+                "Feeling worthless or lacking confidence is tough. Let's discuss your self-perception and work towards building self-worth.",
+                "Low self-esteem can be overwhelming. I'm here to help you recognize your value. What specific thoughts or situations contribute to your feelings of inadequacy?",
+                "I'm sorry to hear that you're questioning your self-worth. Let's explore ways to build confidence and foster self-love.",
+                "You are valuable, and your feelings matter. Let's talk about your struggles with self-worth and work towards a more positive self-perception."
+              ]
+            },
+            {
+              "tag": "hopelessness",
+              "patterns": [
+                "Feeling hopeless",
+                "No light at the end of the tunnel",
+                "Lost all hope",
+                "Hopelessness and despair",
+                "Can't see a way out",
+                "Desperate",
+                "Giving up",
+                "Empty and hopeless"
+              ],
+              "responses": [
+                "I'm really sorry to hear that you're feeling this way. It's important to talk about it. What thoughts or situations contribute to your feelings of hopelessness?",
+                "Feeling hopeless can be incredibly challenging. I'm here to offer support. Can you share more about what's making you feel this way?",
+                "I'm sorry you're experiencing such deep feelings of hopelessness. Let's talk about your emotions and explore ways to find hope.",
+                "Feeling like there's no way out is tough. I'm here to listen and provide support. What specific situations or thoughts are contributing to your sense of despair?",
+                "It's understandable to feel overwhelmed. Let's work together to explore options and find a way to navigate through this challenging time."
+              ]
+            },
+            {
+              "tag": "seeking_help",
+              "patterns": [
+                "Need help",
+                "Seeking support",
+                "Depressed and reaching out",
+                "Talking to someone",
+                "Therapy for depression",
+                "Counseling for depression",
+                "Finding help for depression",
+                "Support for mental health"
+              ],
+              "responses": [
+                "Reaching out for help is a brave step. I'm here to provide support. What specific assistance are you looking for?",
+                "You don't have to go through this alone. Seeking support is important. What type of help or assistance are you hoping to find?",
+                "Talking to someone can make a significant difference. I'm here to listen and provide support. What do you need to talk about?",
+                "Therapy and counseling can be beneficial for managing depression. Have you considered reaching out to a mental health professional?",
+                "Support for your mental health is crucial. Let's discuss the kind of assistance you're seeking and explore options for finding help."
+              ]
+            }
+          ]
+        },
+        {
+          "intents": [
+            {
+              "tag": "anxiety",
+              "patterns": [
+                "I'm anxious",
+                "Feeling uneasy",
+                "I'm so nervous",
+                "Anxious right now",
+                "In a worried state",
+                "Feeling overwhelmed",
+                "Life is stressful",
+                "Panicking",
+                "Nervous",
+                "Worried",
+                "I'm on edge",
+                "I can't calm down"
+              ],
+              "responses": [
+                "I'm here for you. It sounds like you're dealing with anxiety. What's on your mind?",
+                "I'm sorry to hear that you're feeling anxious. Can you share what's causing these feelings?",
+                "Anxiety can be challenging. I'm here to listen. What's been bothering you?",
+                "I understand that anxiety can be overwhelming. Is there something specific that triggered these feelings?",
+                "I'm here to support you. If you're comfortable, let's talk about what's contributing to your anxiety."
+              ]
+            },
+            {
+              "tag": "venting_anxiety",
+              "patterns": [
+                "Need to vent about anxiety",
+                "Feeling overwhelmed, need to talk",
+                "Anxiety is too much",
+                "Need to express my worries",
+                "Can't handle my anxiety"
+              ],
+              "responses": [
+                "It's okay to vent. I'm here to listen. What's been causing your anxiety?",
+                "Venting can be a helpful way to cope. Take your time and share what's on your mind.",
+                "Expressing your worries is important. I'm here for you. What's been overwhelming you?",
+                "If you need to talk about your anxiety, I'm here to listen without judgment. What's going on?",
+                "It's okay to feel overwhelmed. Take your time to express what's been on your mind."
+              ]
+            },
+            {
+              "tag": "calming_anxiety",
+              "patterns": [
+                "Help me calm down my anxiety",
+                "I need to relax from anxiety",
+                "Anxiety management",
+                "Calm my nerves",
+                "What can I do to ease my anxiety?",
+                "Feeling too anxious"
+              ],
+              "responses": [
+                "Take a deep breath. I'm here to help. What usually helps you calm down from anxiety?",
+                "I understand you're feeling anxious. Let's work on calming those nerves. What usually works for you?",
+                "Managing anxiety is important. What calming strategies have worked for you in the past?",
+                "It's okay to seek help in calming down. What techniques do you find effective in managing your anxiety?",
+                "I'm here to support you in finding ways to calm down. What strategies have helped you before?"
+              ]
+            },
+            {
+              "tag": "positive_support",
+              "patterns": [
+                "Need positive support",
+                "Feeling alone with my anxiety",
+                "Positive encouragement",
+                "I can't handle this alone",
+                "Support with anxiety"
+              ],
+              "responses": [
+                "You're not alone. I'm here to offer support. What would be helpful for you right now?",
+                "I'm here to provide positive encouragement. How can I support you through your anxiety?",
+                "Feeling alone with anxiety is tough. Reach out whenever you need support or someone to talk to.",
+                "You don't have to face this alone. Let's talk about what you're going through.",
+                "Positive support is key. I'm here to offer a listening ear and encouragement."
+              ]
+            },
+            {
+              "tag": "mindfulness",
+              "patterns": [
+                "Mindfulness for anxiety",
+                "I need mindfulness exercises",
+                "Anxiety and meditation",
+                "How to practice mindfulness",
+                "Coping with anxiety through mindfulness"
+              ],
+              "responses": [
+                "Practicing mindfulness can help. Would you like guidance on mindfulness exercises for anxiety?",
+                "Mindfulness can be a powerful tool for anxiety. Would you like to explore mindfulness techniques together?",
+                "Meditation and mindfulness can support anxiety management. Would you like to learn some exercises?",
+                "Mindfulness is a great way to center yourself. Can I assist you in starting a mindfulness practice?",
+                "Coping with anxiety through mindfulness is a positive approach. Would you like some mindfulness exercises to try?"
+              ]
+            }
+          ]
+        },
+        {
+          "intents": [
+            {
+              "tag": "student_stress",
+              "patterns": [
+                "Feeling stressed about school",
+                "Overwhelmed with studies",
+                "Exam stress",
+                "Pressure from assignments",
+                "Stressful school life",
+                "Balancing academics",
+                "School-related stress",
+                "Struggling with coursework",
+                "Academic pressure"
+              ],
+              "responses": [
+                "I understand that school can be stressful. What specific challenges are you facing with your studies?",
+                "School-related stress is common among students. Can you share more about the academic pressures you're experiencing?",
+                "Balancing academics can be tough. Let's talk about the specific challenges you're encountering with your schoolwork.",
+                "I know exams and assignments can be stressful. What aspects of your school life are causing you the most pressure?",
+                "Struggling with coursework is tough. Let's discuss ways to manage academic stress and improve your experience."
+              ]
+            },
+            {
+              "tag": "time_management",
+              "patterns": [
+                "Need help with time management",
+                "Time management for students",
+                "Balancing school and life",
+                "Organizing study time",
+                "Feeling overwhelmed with schedule",
+                "Prioritizing tasks",
+                "Too many assignments",
+                "Not enough time for studies"
+              ],
+              "responses": [
+                "Time management is crucial for students. Let's work on organizing your study time. What challenges are you facing with your schedule?",
+                "Balancing school and life can be challenging. How do you currently prioritize your tasks, and where do you feel overwhelmed?",
+                "Organizing study time is essential. What specific aspects of time management are causing you stress?",
+                "Feeling overwhelmed with your schedule is common. Let's discuss ways to prioritize tasks and manage your time more effectively.",
+                "Handling too many assignments is stressful. Let's explore strategies for better time management. What aspects do you find most challenging?"
+              ]
+            },
+            {
+              "tag": "social_pressure",
+              "patterns": [
+                "Social pressure in college",
+                "Feeling isolated",
+                "Peer pressure",
+                "Social anxiety",
+                "Balancing social life",
+                "Loneliness in college",
+                "Friendship stress",
+                "Social expectations",
+                "Overcoming social challenges"
+              ],
+              "responses": [
+                "Social pressure in college is common. How do you currently handle social challenges, and what aspects are causing you stress?",
+                "Feeling isolated or dealing with peer pressure can be tough. Let's discuss your experiences and find ways to cope.",
+                "Balancing social life is important. What specific aspects of social interactions are causing you stress?",
+                "Loneliness in college is a valid concern. Let's explore ways to connect with others and overcome feelings of isolation.",
+                "Social expectations can be challenging to navigate. How do you feel about the social pressures you're experiencing, and what support do you need?"
+              ]
+            },
+            {
+              "tag": "self_care",
+              "patterns": [
+                "Need self-care tips",
+                "Taking care of mental health",
+                "Stress relief for students",
+                "Managing stress in college",
+                "Self-care practices",
+                "Well-being as a student",
+                "Healthy habits for students",
+                "Coping with student life"
+              ],
+              "responses": [
+                "Taking care of your mental health is important. Let's explore self-care practices that can help you manage stress. What activities do you find relaxing?",
+                "Stress relief for students is essential. What self-care practices have you tried before, and which ones resonate with you?",
+                "Managing stress in college requires a focus on well-being. What healthy habits do you currently practice, and what areas would you like to improve?",
+                "Coping with student life can be challenging. Let's discuss personalized self-care strategies to enhance your well-being.",
+                "Self-care is crucial for your mental health. How do you currently prioritize self-care, and what additional tips or practices are you looking for?"
+              ]
+            },
+            {
+              "tag": "academic_support",
+              "patterns": [
+                "Need academic support",
+                "Struggling with studies",
+                "Tutoring help",
+                "Study strategies",
+                "Improving academic performance",
+                "Feeling behind in coursework",
+                "Stress affecting grades",
+                "Challenges with learning"
+              ],
+              "responses": [
+                "I'm here to support you academically. What specific challenges are you facing with your studies?",
+                "Struggling with studies is common. Let's discuss your learning challenges and explore strategies for improvement.",
+                "Tutoring help can be beneficial. What subjects or topics are you finding particularly challenging?",
+                "Improving academic performance is a process. Let's explore study strategies that align with your learning style. What methods have you tried before?",
+                "If stress is affecting your grades, let's work together to address the challenges. What specific aspects of your academic experience are causing you stress?"
+              ]
+            }
+          ]
+        },
+        {
+          "intents": [
+            {
+              "tag": "anger",
+              "patterns": [
+                "I'm angry",
+                "Feeling frustrated",
+                "I'm so mad",
+                "Angry right now",
+                "In a bad mood",
+                "Feeling irritated",
+                "Life is frustrating",
+                "Furious",
+                "Upset",
+                "Annoyed",
+                "I'm boiling",
+                "I can't stand this"
+              ],
+              "responses": [
+                "I'm sorry to hear that you're feeling angry. What's causing this frustration?",
+                "It's okay to feel angry. Can you share what's bothering you?",
+                "Anger is a natural emotion. What triggered your anger, if you're comfortable sharing?",
+                "I understand. What happened that led to your current feelings of anger?",
+                "I'm here for you. If you want to talk about it, I'm ready to listen."
+              ]
+            },
+            {
+              "tag": "venting",
+              "patterns": [
+                "Need to vent",
+                "I want to scream",
+                "Venting out",
+                "I'm so irritated",
+                "Need to express my anger",
+                "Can't hold it in"
+              ],
+              "responses": [
+                "I'm here for you. Feel free to vent. What's on your mind?",
+                "Venting can be helpful. Take your time, and share what's bothering you.",
+                "If you need to express your anger, I'm here to listen. What's going on?",
+                "It's okay to let it out. What's been building up that you need to share?",
+                "Feel free to share your feelings. I'm here to support you."
+              ]
+            },
+            {
+              "tag": "calming_strategies",
+              "patterns": [
+                "Help me calm down",
+                "I need to relax",
+                "Anger management",
+                "Calm me down",
+                "What can I do to feel better?",
+                "I'm too angry"
+              ],
+              "responses": [
+                "Take a deep breath. I'm here to help you. What usually helps you calm down?",
+                "I understand you're feeling angry. Let's work on calming those emotions. What usually works for you?",
+                "Anger management is important. What calming strategies have worked for you in the past?",
+                "It's okay to seek help in calming down. What techniques do you find effective in managing your anger?",
+                "I'm here to support you in finding ways to calm down. What strategies have helped you before?"
+              ]
+            },
+            {
+              "tag": "positive_resolution",
+              "patterns": [
+                "Finding a solution",
+                "Resolving the issue",
+                "Making things right",
+                "How can I fix this?",
+                "Turning things around"
+              ],
+              "responses": [
+                "Let's work on finding a solution together. What do you think might help improve the situation?",
+                "It's important to address the issue. What steps can you take to resolve what's causing your anger?",
+                "Finding a positive resolution is key. What actions can be taken to make things better?",
+                "I'm here to support you in resolving the issue. What steps do you feel would lead to a positive outcome?",
+                "Let's focus on turning things around. What steps can be taken to move towards a more positive situation?"
+              ]
+            },
+            {
+              "tag": "self_reflection",
+              "patterns": [
+                "Reflecting on my anger",
+                "Why am I so angry?",
+                "Understanding my emotions",
+                "Self-reflection",
+                "What's triggering me?"
+              ],
+              "responses": [
+                "Self-reflection is a valuable tool. What do you think might be triggering your anger?",
+                "It's important to understand our emotions. Can you reflect on what might be causing your anger?",
+                "Taking time for self-reflection is a positive step. What thoughts or situations do you think are contributing to your anger?",
+                "Understanding the root cause of anger is crucial. What insights have you gained through self-reflection?",
+                "Reflecting on your emotions can be enlightening. What thoughts or events are you currently examining?"
+              ]
+            }
+          ]
+        },
+        {
+          "intents": [
+            {
+              "tag": "happy",
+              "patterns": [
+                "I feel happy",
+                "Feeling great",
+                "I'm so happy",
+                "Happy right now",
+                "In a good mood",
+                "Feeling joyful",
+                "Life is good",
+                "Excited",
+                "Content",
+                "Joyous",
+                "Delighted",
+                "I'm on cloud nine"
+              ],
+              "responses": [
+                "That's wonderful to hear! What's making you feel happy?",
+                "I'm glad to hear that! What brought about this happiness?",
+                "Fantastic! Can you share what's making you feel this way?",
+                "Happiness is contagious! What's making your day so bright?",
+                "I love hearing that you're happy! What's the secret to your joy?"
+              ]
+            },
+            {
+              "tag": "gratitude",
+              "patterns": [
+                "Grateful",
+                "Thankful",
+                "Blessed",
+                "Appreciative",
+                "Feeling grateful",
+                "Gratitude",
+                "Thanking my stars",
+                "Counting my blessings"
+              ],
+              "responses": [
+                "Expressing gratitude is wonderful! What are you feeling grateful for today?",
+                "Gratitude is a beautiful thing. What are you thankful for right now?",
+                "It's great to hear that you're feeling grateful. What's bringing you a sense of appreciation?",
+                "Gratitude can brighten our days. What blessings are you counting right now?",
+                "Being thankful is a positive mindset. What's making you feel blessed today?"
+              ]
+            },
+            {
+              "tag": "positive_experience",
+              "patterns": [
+                "Had a great day",
+                "Positive experience",
+                "Amazing day",
+                "Successful day",
+                "Good things happened",
+                "Awesome experience",
+                "Feeling accomplished"
+              ],
+              "responses": [
+                "That's fantastic! Can you share the highlights of your great day?",
+                "I'm thrilled to hear that you had a positive experience! What made it so amazing?",
+                "Success and positivity go hand in hand. What made your day successful?",
+                "Awesome! What good things happened that contributed to your positive day?",
+                "Feeling accomplished is a great feeling! What did you achieve today?"
+              ]
+            },
+            {
+              "tag": "happy_memories",
+              "patterns": [
+                "Reminiscing happy memories",
+                "Thinking about good times",
+                "Recalling joyful moments",
+                "Happy memories",
+                "Cherishing the past"
+              ],
+              "responses": [
+                "Reflecting on happy memories is uplifting. What joyful moments are you thinking about?",
+                "Thinking about good times can bring a smile. What happy memories are on your mind?",
+                "Recalling joyful moments is a wonderful way to boost your mood. What memories are you cherishing?",
+                "Happy memories are like treasures. Which specific moments are bringing you joy as you think about them?",
+                "Cherishing the past can be heartwarming. What specific happy memories are you reminiscing about?"
+              ]
+            },
+            {
+              "tag": "positive_affirmation",
+              "patterns": [
+                "I am happy",
+                "Feeling positive",
+                "Life is beautiful",
+                "I love my life",
+                "Every day is a good day",
+                "I radiate positivity"
+              ],
+              "responses": [
+                "Affirming positivity is powerful! What makes you feel so positive right now?",
+                "It's great that you're feeling positive! What aspects of your life contribute to this positive mindset?",
+                "Life is beautiful indeed! What specific aspects of your life are you appreciating right now?",
+                "Loving your life is wonderful! What aspects of your life bring you the most joy?",
+                "Radiating positivity is fantastic! What's contributing to your positive energy?"
+              ]
+            },
+            {
+              "tag": "celebration",
+              "patterns": [
+                "Celebrating",
+                "Party time",
+                "Happy occasion",
+                "Special moment",
+                "Success celebration",
+                "Cheering",
+                "Feeling festive"
+              ],
+              "responses": [
+                "Let's celebrate! What's the occasion that has you in a festive mood?",
+                "Party time! What are you celebrating today?",
+                "Happy occasions are special! What's the reason behind your celebratory mood?",
+                "Cheers to your success! What are you celebrating in your life right now?",
+                "Feeling festive is great! What's the special moment that has you in a celebratory mood?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
